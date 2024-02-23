@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "alyaa",
+      "email": "alyaa@gmail.com",
+      "password": "alyaa123456",
+      "role": "admin",
+      "gender": "female",
+      "phone": "01212121212"
+    },
+    {
+      "id": "2",
+      "username": "abdo",
+      "email": "abdo@gmail.com",
+      "password": "alyaa123",
+      "role": "user",
+      "gender": "male",
+      "phone": "01210443588"
+    },
+    {
+      "id": "3",
+      "username": "omara",
+      "email": "omar@gmail.com",
+      "password": "alyaa123",
+      "role": "user",
+      "gender": "female",
+      "phone": "01245432609"
+    },
+    {
+      "id": "5",
+      "username": "mai",
+      "email": "maii@gmail.com",
+      "password": "alyaa123",
+      "role": "user",
+      "gender": "female",
+      "phone": "01212000000"
+    },
+    {
+      "id": "7",
+      "username": "heba mohammed",
+      "email": "heba@gmail.com",
+      "password": "alyaa123",
+      "role": "admin",
+      "gender": "female",
+      "phone": "01245432609"
+    },
+    {
+      "id": "8",
+      "username": "esraa",
+      "email": "esraa@gmail.com",
+      "password": "alyaa123",
+      "role": "user",
+      "gender": "female",
+      "phone": "01212121212"
+    },
+    {
+      "id": "9",
+      "username": "abeer",
+      "email": "abeer@gmail.com",
+      "password": "alyaa123",
+      "role": "user",
+      "gender": "female",
+      "phone": "01212121212"
+    }
+  ]
+}

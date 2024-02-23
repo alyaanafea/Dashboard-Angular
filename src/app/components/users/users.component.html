@@ -1,0 +1,21 @@
+<!-- <table>
+  <thead>
+    <tr>
+      <th>User Name</th>
+      <th>E-mail</th>
+      <th>View User Details</th>
+    </tr>
+  </thead>
+  <tbody> -->
+<div class="d-flex divi">
+  @for(user of users; track user.id){
+  <!-- <div class="alert alert-dark mt-4"> -->
+  <!-- <h2>{{ user.name }}</h2>
+    <h2>{{ user.email }}</h2> -->
+  <!-- <a routerLink="/users/user.id"> View User Details</a> -->
+  <!-- </div> -->
+  <app-one-user [oneUser]="user"></app-one-user>
+  }
+</div>
+<!-- </tbody>
+</table> -->

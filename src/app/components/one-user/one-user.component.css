@@ -1,0 +1,38 @@
+.oneuser {
+  color: rgb(41, 41, 41);
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  /* box-shadow: 0 0 7px rgba(93, 92, 92, 0.1); */
+  border: 1px solid rgba(93, 92, 92, 0.1);
+  height: 300px;
+  font-size: 1rem;
+  text-align: center;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.oneuser * {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.747);
+  font-size: 1.1rem;
+  padding: 2px 12px;
+  border-radius: 25px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.401);
+  margin-top: 20px;
+}
+a:hover {
+  background-color: rgb(247, 172, 142);
+  border-color: rgb(247, 172, 142);
+  cursor: pointer;
+  color: white;
+}
+img {
+  width: 50px;
+  border-radius: 50px;
+}

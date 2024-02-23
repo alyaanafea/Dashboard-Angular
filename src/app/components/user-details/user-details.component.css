@@ -1,0 +1,91 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  border-radius: 30px;
+}
+.container {
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(93, 92, 92, 0.1);
+  text-align: center;
+  width: 60%;
+  padding: 20px 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  margin: 0px auto;
+}
+.backBtn {
+  margin: 0 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  align-self: start;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.role {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.role label {
+  width: 150px;
+}
+.backBtn:hover {
+  background-color: #0056b3;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 25px;
+}
+.input {
+  display: flex;
+  gap: 20px;
+}
+.input label {
+  width: 70px;
+}
+.gender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.containerr * {
+  font-size: 1rem;
+}
+
+input {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.401);
+  padding: 2px 10px;
+}
+input:hover {
+  background-color: rgb(23, 23, 23);
+  color: rgb(240, 239, 239);
+}
+.btn {
+  margin: 5px 30px;
+}

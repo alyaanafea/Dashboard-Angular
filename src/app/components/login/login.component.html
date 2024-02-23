@@ -1,0 +1,37 @@
+<div class="full-screen">
+  <div class="container">
+    <div class="logo">
+      <img src="../../../assets/images/logo.jpg" alt="" />
+      <p>Welcome Back!!!</p>
+      <h2>Login</h2>
+    </div>
+
+    <form [formGroup]="formGroup">
+      <app-input
+        [control]="formGroup.controls.email"
+        inputID="email"
+        label="email"
+      ></app-input>
+      <app-input
+        [control]="formGroup.controls.password"
+        inputID="password"
+        label="password"
+        type="password"
+      ></app-input>
+      <input
+        (click)="add()"
+        value="Login"
+        type="submit"
+        class="btn btn-outline-primary"
+      />
+    </form>
+    <h6 class="signup">don't have an account?<a href="#">sign up</a></h6>
+  </div>
+  <div class="colored d-sm-none d-md-none d-lg-block">
+    <img
+      class="img"
+      src="../../../assets/images/Shopping-rafiki (1).png"
+      alt=""
+    />
+  </div>
+</div>

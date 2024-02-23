@@ -1,0 +1,14 @@
+<div class="form-control">
+  <label [for]="inputId">{{ label }}</label>
+  <input
+    type="{{ type }}"
+    [formControl]="control"
+    [id]="inputId"
+    [class.invalid]="control.invalid && control.dirty && control.touched"
+  />
+  <ng-container *ngIf="control.invalid && control.dirty && control.touched">
+    <div class="error" *ngFor="let err of control.errors | keyvalue">
+      {{ errMsgs[err.key] }}
+    </div>
+  </ng-container>
+</div>

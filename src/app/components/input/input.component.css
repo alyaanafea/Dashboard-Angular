@@ -1,0 +1,23 @@
+.error {
+  color: red;
+  font-size: smaller;
+  align-self: start;
+}
+.form-control {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  gap: 8px;
+}
+.form-control label {
+  align-self: start;
+}
+.form-control input {
+  border: 1px rgb(220, 219, 219) solid;
+  border-radius: 10px;
+  width: 325px;
+  height: 40px;
+}

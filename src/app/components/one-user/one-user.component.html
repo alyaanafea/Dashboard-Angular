@@ -1,0 +1,25 @@
+<div class="mt-4 oneuser">
+  <img src="{{ src }}" alt="" />
+  <h2>username:{{ oneUser.username }}</h2>
+  <h2>
+    Email:
+    {{ oneUser.email }}
+  </h2>
+  <h2>
+    role:
+    {{ oneUser.role }}
+  </h2>
+  <h2>
+    phone:
+    {{ oneUser.phone }}
+  </h2>
+  <h2>
+    gender:
+    {{ oneUser.gender }}
+  </h2>
+  <a routerLink="/users/{{ oneUser.id }}"> Edit User Information</a>
+</div>
+
+<!-- {{ oneUser.name }}
+{{ oneUser.email }}
+<a routerLink="/users/{{ oneUser.id }}"> View User Details</a> -->

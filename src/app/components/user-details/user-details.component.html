@@ -1,0 +1,91 @@
+<div class="main-container">
+  <div class="backBtn" routerLink="/">
+    <a><i class="fa-solid fa-backward"></i></a>
+    <p>Back</p>
+  </div>
+
+  <form class="container d-flex" (submit)="changeUserDetails()">
+    @if(user){
+    <div>
+      <img src="{{ src }}" alt="" />
+      <h4>{{ user.email }}</h4>
+    </div>
+    <div class="inputs">
+      <div class="input">
+        <label for="username">Username</label>
+        <input type="text" [(ngModel)]="user.username" name="username" />
+      </div>
+      <div class="input">
+        <label for="username">E-mail</label>
+        <input type="text" [(ngModel)]="user.email" name="email" />
+      </div>
+      <div class="input">
+        <label for="username">Phone</label>
+        <input type="text" [(ngModel)]="user.phone" name="phone" />
+      </div>
+    </div>
+    <div class="gender">
+      <label for="">Gender</label>
+      <input
+        type="radio"
+        id="male"
+        value="male"
+        [(ngModel)]="user.gender"
+        name="gender"
+      />
+      <label for="male">Male</label>
+      <input
+        type="radio"
+        id="female"
+        value="female"
+        [(ngModel)]="user.gender"
+        name="gender"
+      />
+      <label for="female">Female</label><br /><br />
+    </div>
+    <div class="role">
+      <label for="select">User's Role</label>
+      <select
+        name="role"
+        [(ngModel)]="user.role"
+        id="select"
+        class="form-control w-5"
+      >
+        <option value="admin">admin</option>
+        <option value="user">user</option>
+      </select>
+    </div>
+    <div class="btns">
+      <div class="deleteuser">
+        <button class="btn btn-danger" (click)="deleteUser()">
+          Delete User
+        </button>
+      </div>
+      <div class="btns-1">
+        <button class="btn btn-primary" type="submit">Save Changes</button>
+        <button class="btn btn-success" (click)="cancel()">Cancel</button>
+      </div>
+    </div>
+    <!-- <table class="w-50 alert alert-info containerr">
+    <tr>
+      <td>id</td>
+      <td>{{ user.id }}</td>
+    </tr>
+    <tr>
+      <td>username</td>
+      <td>{{ user.username }}</td>
+    </tr>
+    <tr>
+      <td>email</td>
+      <td>{{ user.email }}</td>
+    </tr>
+    <tr>
+      <td>role</td>
+      <td>{{ user.role }}</td>
+    </tr> -->
+    <!-- <h3>your website: {{ user.website }}</h3> -->
+    <!-- </table>
+  <input type="button" (click)="changeRole()" value="change role" /> -->
+    }
+  </form>
+</div>

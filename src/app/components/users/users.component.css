@@ -1,0 +1,27 @@
+.divi {
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 5% 5%;
+  height: 90vh;
+  /* width: ; */
+  overflow: auto;
+}
+.divi::-webkit-scrollbar {
+  width: 10px; /* Adjust scrollbar width */
+}
+
+.divi::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.divi::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.divi::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
